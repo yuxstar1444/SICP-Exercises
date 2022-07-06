@@ -22,8 +22,3 @@ def f_iter (n):
         b = a
         c = b
     return a
-
-try:
-    f_rec(3) == f_iter(3)
-except:
-    print("They are not equivalent!")
